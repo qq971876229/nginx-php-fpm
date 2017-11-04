@@ -257,6 +257,6 @@ ADD src/ /var/www/html/
 ADD errors/ /var/www/errors
 
 
-EXPOSE 443 80
+EXPOSE 443 80 22 30001
 
 CMD ["/start.sh"]
