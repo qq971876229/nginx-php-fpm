@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM php:7.1.10-fpm-alpine
 
 LABEL maintainer="Ric Harvey <ric@ngd.io>"
 
